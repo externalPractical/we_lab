@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy Time Table</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dummy Time Table</h1>
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr>
+      <td>08:00 - 09:00</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>English</td>
+      <td>History</td>
+      <td>Geography</td>
+    </tr>
+    <tr>
+      <td>09:00 - 10:00</td>
+      <td>Science</td>
+      <td>Math</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>History</td>
+    </tr>
+    <tr>
+      <td>10:00 - 11:00</td>
+      <td>English</td>
+      <td>History</td>
+      <td>Science</td>
+      <td>Math</td>
+      <td>Geography</td>
+    </tr>
+    <tr>
+      <td>11:00 - 12:00</td>
+      <td>Geography</td>
+      <td>English</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+    </tr>
+  </table>
+</body>
+</html>
