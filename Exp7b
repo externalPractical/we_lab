@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Read-Write Example</title>
+</head.>
+<body
+   <%
+        String clientInput = request.getParameter("input");
+        out.println("Received from client: " + clientInput);
+    %>
+ <%-- Write back to the client --%>
+    <%
+        String serverResponse = "Hello, Client! I received your message: " + clientInput;
+        response.setContentType("text/html;charset=UTF-8");
+        out.println("<h1>" + serverResponse + "</h1>");
+    %>
+</body>
+</html>
+
