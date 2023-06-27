@@ -1,0 +1,17 @@
+Create a new file with a .jsp extension, such as helloworld.jsp
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World JSP</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+
+Save the file.
+To run the JSP, you need a web server that supports Java, such as Apache Tomcat.
+Steps:-
+1.	Copy the helloworld.jsp file into the webapps directory of your Tomcat installation. For example, if Tomcat is installed at C:\Tomcat, copy the file to C:\Tomcat\webapps.
+2.	Start the Tomcat server.
+3.	Open a web browser and access the JSP file by entering the URL http://localhost:8080/helloworld.jsp (assuming Tomcat is running on the default port 8080).
