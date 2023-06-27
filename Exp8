@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Handling Example</title>
+</head>
+<body>
+    <%-- Check if a cookie named "username" exists --%>
+    <%
+        String username = null;
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("username")) {
+                    username = cookie.getValue();
+                    break;
+                }
+            }
+        }
+    %>
+
+    <%-- If "username" cookie is not set, prompt for username --%>
+    <% if (username == null) { %>
+        <form action="cookieHandler.jsp" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit">Submit</button>
+        </form>
+    <% } else { %>
+        <%-- Display the username if the cookie is set --%>
+        <h1>Welcome, <%= username %>!</h1>
+        <p><a href="cookieHandler.jsp?logout=true">Logout</a></p>
+
+        <%-- Clear the cookie if the user chooses to logout --%>
+        <%
+            String logout = request.getParameter("logout");
+            if (logout != null && logout.equals("true")) {
+                Cookie cookie = new Cookie("username", "");
+                cookie.setMaxAge(0);
+                response.addCookie(cookie);
+                response.sendRedirect("cookieHandler.jsp");
+            }
+        %>
+    <% } %>
+
+    <%-- Create a cookie if the user submits the username --%>
+    <%
+        String submittedUsername = request.getParameter("username");
+        if (submittedUsername != null && !submittedUsername.isEmpty()) {
+            Cookie cookie = new Cookie("username", submittedUsername);
+            cookie.setMaxAge(60 * 60 * 24 * 7); // 7 days expiration
+            response.addCookie(cookie);
+            response.sendRedirect("cookieHandler.jsp");
+        }
+    %>
+</body>
+</html>
+
+
+Save the file.
+To run the JSP, you need a web server that supports Java, such as Apache Tomcat.
+Steps:-
+1.	Copy the helloworld.jsp file into the webapps directory of your Tomcat installation. For example, if Tomcat is installed at C:\Tomcat, copy the file to C:\Tomcat\webapps.
+2.	Start the Tomcat server.
+3.	Open a web browser and access the JSP file by entering the URL http://localhost:8080/helloworld.jsp (assuming Tomcat is running on the default port 8080).
