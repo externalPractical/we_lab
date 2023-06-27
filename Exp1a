@@ -3,22 +3,6 @@
         <title>First page</title>
     </head>
     <body>
-        <style>
-            *{
-                color: red;
-                font-size: 20px;
-            
-            }
-            body{
-                margin: auto;
-                padding: 10px;
-            
-            }
-            header{
-                text-align: center;
-                text-transform: uppercase;
-            }
-        </style>
         <center>
             <div>
                 <h1>Hello world</h1>
