@@ -1,0 +1,155 @@
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />   
+<title>Time Table</title>    
+<div>
+        <header>            
+<h1>Time Table</h1>            
+<h2>CSE - 3</h2>
+        </header>
+        <center>        
+<table border="5">            
+<tbody>
+<tr>               
+<th>Day</th>             
+<th>8:00 - 9:00</th>              
+<th>9:00 - 10:00</th>               
+<th>10:00 - 11:00</th>              
+<th>11:00 - 12:00</th>             
+<th>12:00 - 12:30</th>                
+<th>12:30 - 1:30</th>                
+<th>1:30 - 2:30</th>
+            </tr>            
+<tr>               
+<td>Monday</td>                
+<td>CD (L) <br /> (DJ)</td>             
+<td>AI (L) <br />(SA)<br /></td>                
+<td>CN (L) <br />(AY)<br /></td>                
+<td>OS (L) <br />(SK)<br /></td>                
+<td rowspan="6">BREAK</td>                
+<td colspan="2">                
+<table>                    
+<tbody>
+<tr>                        
+<td>CN Lab A<br /> (AY)</td>
+                    </tr>                    
+<tr>                        
+<td>WE LaB B<br /> (PD)</td>
+                    </tr>                   
+<tr>                       
+<td>MPMC Lab C<br /> (PC)</td>
+                    </tr>  
+                </tbody></table>
+                </td>
+            </tr>            
+<tr>                
+<td>Tuesday</td>                
+<td>CN(L) <br /> (PK-2)</td>               
+<td>MPMC(L) <br /> (PN)</td>                
+<td>CD(L) <br /> (SM-4)</td>                                
+<td>                
+<table>        
+<tbody>
+<tr>              
+<td>MPMC(T)<br /> (DY)</td>
+                    </tr>                    
+<tr>
+<td>AI(T)<br /> (PK-2)</td>
+                    </tr>                    
+<tr>
+<td>CD(T) <br /> (SM-4)</td>
+                    </tr>
+                </tbody></table>
+                </td>
+            </tr>            
+<tr>                
+<td>Wednesday</td>                
+<td>OS(L)  <br /> (KDG)</td>               
+<td>MPMC(L)  <br /> (DY)</td>              
+<td>CD(L)  <br /> (SM-4)</td>               
+<td>AI(L)  <br /> (PK-2)</td>               
+<td colspan="2">                
+<table>                   
+<tbody>
+<tr>                      
+<td>CN Lab <br /> (DJ)</td>
+                    </tr>                  
+<tr>                        
+<td>WE LaB <br /> (SR-4)</td>
+                    </tr>            
+<tr>                  
+<td>MPMC Lab <br /> (DY)</td>
+                    </tr>  
+                </tbody></table>
+                </td>
+            </tr>
+           
+<tr>               
+<td>Thursday</td>               
+<td>OS(L)  <br /> (KDG)</td>               
+<td>MPMC(L)  <br /> (DY)</td>            
+<td>CD(L)  <br /> (SM-4)</td>               
+<td>AI(L)  <br /> (PK-2)</td>                
+<td colspan="2">                
+<table>                  
+<tbody>
+<tr>                        
+<td>CN Lab <br /> (DJ)</td>
+                    </tr>                    
+<tr>                        
+<td>WE LaB <br /> (SR-4)</td>
+                    </tr>                  
+<tr>
+                        
+<td>MPMC Lab  <br /> (DY)</td>
+                    </tr>
+                </tbody></table>
+                </td>
+            </tr>
+<tr>               
+<td>Friday</td>                
+<td>OS(L)  <br /> (KDG)</td>                
+<td>MPMC(L)  <br /> (DY)</td>               
+<td>CD(L)  <br /> (SM-4)</td>                
+<td>AI(L)  <br /> (PK-2)</td>                
+<td colspan="2">              
+<table>                    
+<tbody>
+<tr>                        
+<td>CN Lab<br /> (DJ)</td>
+                    </tr>                    
+<tr>                        
+<td>WE LaB<br /> (SR-4)</td>
+                    </tr>                  
+<tr>                        
+<td>MPMC Lab<br /> (DY)</td>
+                    </tr>
+                </tbody></table>
+                </td>
+            </tr>
+            
+<tr>               
+<td>Saturday</td>                
+<td>OS(L)  <br /> (KDG)</td>               
+<td>MPMC(L)  <br /> (DY)</td>                
+<td>CD(L)  <br /> (SM-4)</td>                
+<td>AI(L)  <br /> (PK-2)</td>                
+<td colspan="2">                
+<table>                    
+<tbody>
+<tr>                       
+<td>CN Lab<br /> (DJ)</td>
+                    </tr>                    
+<tr>
+                        
+<td>WE LaB<br /> (SR-4)</td>
+       </tr>            
+<tr>                        
+<td>MPMC Lab<br /> (DY)</td>
+                    </tr>
+                </tbody></table>
+                </td>
+            </tr>
+ </tbody></table>
+    </center>
+    </div>
