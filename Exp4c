@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body align='center'>
+    <h1>Registration <Form></Form></h1>
+    <form id="registration-form">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name">
+<br><br>
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name">
+<br><br>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email">
+<br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+<br><br>
+      <button type="submit">Register</button>
+    </form>
+
+    <script>
+      // Your JavaScript code goes here
+
+      // Get the form element
+        const form = document.getElementById("registration-form");
+
+// Get the form fields
+        const firstNameInput = document.getElementById("first-name");
+        const lastNameInput = document.getElementById("last-name");
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+
+// Add an event listener to the form
+        form.addEventListener("submit", function(event) {
+        // Prevent the form from submitting
+        event.preventDefault();
+
+        // Get the input values
+        const firstNameValue = firstNameInput.value.trim();
+        const lastNameValue = lastNameInput.value.trim();
+        const emailValue = emailInput.value.trim();
+        const passwordValue = passwordInput.value.trim();
+
+  // Validate the input
+        if (firstNameValue === "" || lastNameValue === "" || emailValue === "" || passwordValue === "") {
+            window.alert("Please fill in all fields.");
+        } else if (!validateEmail(emailValue)) {
+            window.alert("Please enter a valid email address.");
+        } else if (passwordValue.length < 8) {
+            window.alert("Password must be at least 8 characters long.");
+        } else {
+            window.alert("Registration successful!");
+        }
+        });
+
+// Helper function to validate email address
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+    </script>
+  </body>
+</html>
