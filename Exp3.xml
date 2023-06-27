@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<CATALOG>
+<CD>
+    <TITLE>3 Idiots</TITLE>
+    <YEAR> 2009 </YEAR>
+    <LANGUAGE> Hindi </LANGUAGE>
+    <RATING>4.5</RATING>
+    <CATEGORY> Drama </CATEGORY>
+</CD>
+<CD>
+<TITLE> Avengers : End game </TITLE>
+    <YEAR> 2019 </YEAR>
+    <LANGUAGE> English </LANGUAGE>
+    <RATING> 4.3 </RATING>
+    <CATEGORY> Action </CATEGORY>
+</CD>
+<CD>
+    <TITLE> The Batman</TITLE>
+    <YEAR> 2019 </YEAR>
+    <LANGUAGE> English </LANGUAGE>
+    <RATING>4.0</RATING>
+     <CATEGORY> Action </CATEGORY>
+</CD>
+<CD>
+    <TITLE> Pathaan </TITLE>
+    <YEAR> 2023 </YEAR>
+    <LANGUAGE> Hindi </LANGUAGE>
+    <RATING>4.2</RATING>
+     <CATEGORY> Thriller </CATEGORY>
+</CD>
+
+<CD>
+    <TITLE> Evil Dead Rise </TITLE>
+    <YEAR>2023</YEAR>
+    <LANGUAGE> Horror </LANGUAGE>
+    <RATING>4.4</RATING>
+    <CATEGORY> Horror </CATEGORY>
+</CD>
+<CD>
+    <TITLE> URI </TITLE>
+    <YEAR> 2019 </YEAR>
+    <LANGUAGE> Hindi </LANGUAGE>
+    <RATING> 4.1 </RATING>
+    <CATEGORY> Action </CATEGORY>
+</CD>
+<CD>
+    <TITLE> Little Women</TITLE>
+    <YEAR>2019</YEAR>
+    <LANGUAGE> English </LANGUAGE>
+    <RATING>3.7</RATING>
+    <CATEGORY> Romance </CATEGORY>
+</CD>
+
+</CATALOG>
